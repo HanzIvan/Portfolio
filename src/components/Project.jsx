@@ -30,14 +30,20 @@ const Project = () => {
             <h1 className="text-[#303841] mt-3 font-semibold text-xl">
               Sinag | Ecommerce Website
             </h1>
-            <div className="mt-4 flex items-center">
+            <div className="mt-4 w-full flex items-center">
               <h2 className="text-center font-semibold text-xl text-[#303841]">
                 Built with :
               </h2>
-              <div className="w-[20%] grid grid-cols-3 gap-2 ml-1">
-                <img src={htmlicon} alt="" />
-                <img src={cssicon} alt="" />
-                <img src={jsicon} alt="" />
+              <div className="w-[25%] grid grid-cols-3 gap-10 sm:gap-2 sm:w-auto lg:gap-2">
+                <div className="w-10 h-10">
+                  <img src={htmlicon} alt="" className="w-full h-full" />
+                </div>
+                <div className="w-10 h-10">
+                  <img src={cssicon} alt="" className="w-full h-full" />
+                </div>
+                <div className="w-10 h-10">
+                  <img src={jsicon} alt="" className="w-full h-full" />
+                </div>
               </div>
             </div>
           </div>
