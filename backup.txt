@@ -1,0 +1,53 @@
+<p className="font-bold text-center text-base text-[#303841]">
+            I hold a degree in Computer Engineering, but I'm deeply passionate
+            about front-end development, drawn to the creative challenge of
+            bringing designs to life through code.
+          </p>
+
+
+          mx-96 sm:mx-[10%] my-8 sm:my-[8%] 
+
+          mx-[30%]  gap-[5px] my-[8%]
+
+
+  <div
+      name="home"
+      className="relative flex justify-center w-auto h-[100vh] border-2 border-black "
+    >
+      <div className="absolute flex flex-row justify-center items-center sm:mx-[10%] sm:my-[30%] lg:mx-[30%]  lg:my-[15%] border-2 border-black">
+        <img
+          data-aos="fade-right"
+          src={profile_memoji}
+          alt=""
+          className="w-full"
+        />
+
+        <div
+          // data-aos="fade-left"
+          className="flex flex-col justify-center items-center gap-8 px-1 py-1 border-2 border-black"
+        >
+          <h1 className="font-bold text-3xl text-[#303841]">Hello! I'm</h1>
+          <h2 className="font-bold p-1 text-center text-8xl text-[#7D0A0A]">
+            <TypeAnimation
+              sequence={["Hanz Ivan", 1000]}
+              wrapper="span"
+              speed={25}
+              style={{ display: "inline-block", height: "200px" }}
+              repeat={Infinity}
+            />
+          </h2>
+          <p className=" text-[18px] font-semibold text-center text-base  text-[#303841]">
+            I'm deeply passionate about front-end development, drawn to the
+            creative challenge of bringing designs to life through code.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    flex justify-center items-center gap-[35px] list-none font-bold text-[#FFF7F1] text-xs p-10 sm:text-lg sm:gap-[10%]
+
+
+
+     w-full  flex flex-col justify-center items-center my-[30%] mx-[5%]
