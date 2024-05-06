@@ -22,11 +22,13 @@ const Project = () => {
             data-aos-duration="500"
             className="relative h-auto"
           >
-            <img
-              src={sinag}
-              alt=""
-              className="w-full border-4 border-[#303841] rounded-lg"
-            />
+            <a href="https://sinag.vercel.app/">
+              <img
+                src={sinag}
+                alt=""
+                className="w-full border-4 border-[#303841] rounded-lg"
+              />
+            </a>
             <h1 className="text-[#303841] mt-3 font-semibold text-xl">
               Sinag | Ecommerce Website
             </h1>
