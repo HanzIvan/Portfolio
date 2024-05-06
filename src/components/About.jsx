@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/Resume/Resume.pdf";
+import resume from "../assets/Resume/Derico_Resume_(2024).pdf";
 
 const About = () => {
   return (
