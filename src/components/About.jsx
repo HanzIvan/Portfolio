@@ -7,7 +7,7 @@ const About = () => {
       <div
         data-aos="flip-down"
         name="about-content"
-        className="relative flex flex-col items-center my-[25%] sm:my-[50%] sm:mx-[5%] sm:h-[50%] md:mx-[10%] lg:my-[10%] lg:mx-[30%] lg:h-auto"
+        className="relative flex flex-col items-center my-[20%]  sm:my-[50%] sm:mx-[5%] sm:h-[50%] md:mx-[10%] lg:my-[10%] lg:mx-[30%] lg:h-auto"
       >
         <div name="about-body" className="p-8 flex flex-col text-justify ">
           <h1 className="mb-10 font-bold text-4xl text-[#7D0A0A]">About</h1>
@@ -27,8 +27,8 @@ const About = () => {
           </p>
         </div>
 
-        <div name="about-btn" className="w-full">
-          <div className="flex justify-center gap-3 p-3">
+        <div name="about-btn" className=" w-full">
+          <div className="flex justify-center gap-3">
             {/* resume button */}
             <a href={resume} download="Resume">
               <button className="w-[120px] bg-[#3A4750] text-[#FFF7F1] p-4 rounded-xl font-bold">
