@@ -1,8 +1,15 @@
 import React from "react";
+
+// Image
 import sinag from "../assets/Projects/Sinag Website.jpg";
+import codehub from "../assets/Projects/CodeHub Project.jpg";
+
+// Icons
 import htmlicon from "../assets/skills-icon/html.svg";
 import cssicon from "../assets/skills-icon/css.svg";
 import jsicon from "../assets/skills-icon/javascript.svg";
+import reacticon from "../assets/skills-icon/react.svg";
+import tailwind from "../assets/skills-icon/tailwind-css.svg";
 
 const Project = () => {
   return (
@@ -45,6 +52,38 @@ const Project = () => {
                 </div>
                 <div className="w-10 h-10">
                   <img src={jsicon} alt="" className="w-full h-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CodeHub */}
+
+          <div
+            data-aos="flip-down"
+            data-aos-duration="500"
+            className="relative h-auto mt-10"
+          >
+            <a href="https://codehub-online.vercel.app/">
+              <img
+                src={codehub}
+                alt=""
+                className="w-full border-4 border-[#303841] rounded-lg"
+              />
+            </a>
+            <h1 className="text-[#303841] mt-3 font-semibold text-xl">
+              CodeHub | Online Course for Programming
+            </h1>
+            <div className="mt-4 w-full flex items-center">
+              <h2 className="text-center font-semibold text-xl text-[#303841]">
+                Built with :
+              </h2>
+              <div className="ml-2 w-[25%] grid grid-cols-3 gap-10 sm:gap-2 sm:w-auto lg:gap-2">
+                <div className="w-10 h-10">
+                  <img src={reacticon} alt="" className="w-full h-full" />
+                </div>
+                <div className="w-10 h-10">
+                  <img src={tailwind} alt="" className="w-full h-full" />
                 </div>
               </div>
             </div>
