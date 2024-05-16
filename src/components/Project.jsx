@@ -15,13 +15,13 @@ const Project = () => {
   return (
     <div>
       {/* Project Page */}
-      <div name="project" className="relative flex justify-center h-[100vh]">
+      <div name="project" className="relative flex justify-center">
         {/* project content */}
         <div
-          className="absolute h-auto flex flex-col mx-[10%] my-[40%] p-3 
+          className=" h-auto flex flex-col mx-[10%] my-[40%] p-3 
         
           lg:h-auto lg:mx-[30%] lg:my-[10%]
-        
+          
         "
         >
           <div
@@ -58,11 +58,10 @@ const Project = () => {
           </div>
 
           {/* CodeHub */}
-
           <div
             data-aos="flip-down"
             data-aos-duration="500"
-            className="relative h-auto mt-10"
+            className="relative h-auto mt-10 "
           >
             <a href="https://codehub-online.vercel.app/">
               <img
